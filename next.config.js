@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: ['assets.simpleviewcms.com', 'media.istockphoto.com'],
   },
+  swcMinify: false,
 }
 
 module.exports = nextConfig
