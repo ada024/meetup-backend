@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['assets.simpleviewcms.com'],
+    domains: ['assets.simpleviewcms.com', 'media.istockphoto.com'],
   },
 }
 
