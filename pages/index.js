@@ -10,17 +10,15 @@ function HomePage(props) {
 
 // Special function, rands before regular function (pre-renders)
 export async function getStaticProps() {
-    try {
-        const client = await MongoClient.connect(dbConfig);
+
+    const client = await MongoClient.connect(dbConfig);
         const db = client.db();
 
         const meetupsCollection = db.collection('meetups');
 
         const meetups = await meetupsCollection.find().toArray();
         await client.close();
-    } catch (e) {
-        console.log(e);
-    }
+
 
     return {
         props: {
