@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import MEETUPS_DATA from "../meetup.data";
 import MeetupList from "../components/meetups/MeetupList";
 import {MongoClient} from "mongodb";
 import {dbConfig} from "../dbconfig";
