@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     domains: ['assets.simpleviewcms.com', 'media.istockphoto.com'],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   swcMinify: false,
 }
 
