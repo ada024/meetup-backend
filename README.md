@@ -1,6 +1,6 @@
 # Meetup backand (NextJs)
 
-Meetup is a backend for displaying mettups
+Meetup is a backend for displaying mettups. Read & writes to MongoDB
 
 
 <br>
