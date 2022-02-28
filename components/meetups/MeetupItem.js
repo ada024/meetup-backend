@@ -14,7 +14,6 @@ function MeetupItem(props) {
         <li className={classes.item}>
             <Card>
                 <div className={classes.image}>
-                    <img src={props.image} alt={props.title}/>
                     <Image src={props.image} alt={props.title} height='480' width='680'/>
                 </div>
                 <div className={classes.content}>
